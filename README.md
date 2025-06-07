@@ -131,10 +131,12 @@ z
 >
 >le das reiniciar y listo.
 
+
 <form>
     <label for="q">Buscar:</label>
     <input type="search" name="q" id="q">
 </form>
+
 
 ---
 
