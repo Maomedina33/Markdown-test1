@@ -7,6 +7,23 @@ markdown open preview
 ### mi titulo h3
 ##### mi titulo h5
 
+---
+
+<form>
+    <label for="q">Buscar:</label>
+    <input type="search" name="q" id="q">
+</form>
+
+---
+
+- [Tabla de Contenido](#tabla-de-contenido)
+  - [¿QUE ES SQL?](#que-es-sql)
+      - [SABIAS?](#sabias)
+
+<!-- indice -subindice, super indice  -->
+
+F-2-  f^2^
+
 <!-- italic -->
 
 this is an *italic* text
@@ -45,21 +62,38 @@ SELECT *
    BETWEEN 2000 AND 2010;
 ```
 
-```python
+```python (Alt+96)
 print("hello world")
 ```
 
-```html
-<h1>hello world</h1>
-```
-| tilde vertical = alt+124  "|"
+
+- | tilde vertical = alt+124  "|"
 
 | First Header  | Second Header | Tird Header   |         
 | ------------- | ------------- | ------------- |
 | Content Cell  | Content Cell  | Content Cell  |
 | Content Cell  | Content Cell  | Content Cell  |
 
-![ visual studio code logo](https://repository-images.githubusercontent.com/657248114/d3c7b91a-b285-4d1e-8429-5de1acc5f61e)
+___
+
+|First Header    | Second Header | Tird Header   |         
+| -------------: | ------------- | ------------- |
+| :Content Cell  | Content Cell  | Content Cell  |
+| :Content Cell  | Content Cell  | Content Cell  |
+
+![alt text](image.png)
+
+emoji = win+.
+
+💦💦
+:smirk:
+
+![logo](https://repository-images.githubusercontent.com/657248114/d3c7b91a-b285-4d1e-8429-5de1acc5f61e)
+
+reducir tamaño imagen
+<img src=https://repository-images.githubusercontent.com/657248114/d3c7b91a-b285-4d1e-8429-5de1acc5f61e alt="logo" width="300"/>
+
+<img src=image-4.png alt="logo" width="220"/>
 
 llamar imagen guardada
 ![ visual studio code logo](vscodelogo.png "vs code logo")
@@ -73,27 +107,41 @@ llamar imagen guardada
 
 anotar terminal integrate para importar a Github
 
-//inicias terminal
+>inicias terminal
+>
+>crear un repositororio git = git init
+>
+>me muestra todos los archivos que voy a subir a git = git status
+>
+>agregar archivos= git add .
+>
+>verifica de nuevo =git status "(*deben salir en verde que significa que ya estan subidos*)"
+>
+>para guardarlos como ..= git commit -m "markdown-test"
+>
+>configurar usuario y correo en git= git config --global user.email "ingmaomedina@gmail.com"
+>
+>git config --global user.name "Maomedina33"
+>
+>una vez terminado puedes generar un commit =
+>git commit -m "markdown-test"
+>
+>copias el enlace de codigo de git y lo ejecutas en el >terminal para agregar un repositorio remoto, en este caso >fue: git remote add origin https://github.com/Maomedina33/-Markddown-test1-.git
+z
+>ahora vamos a subirlo = git push -u origin master
+>
+>le das reiniciar y listo.
 
-crear un repositororio git = git init
+<form>
+    <label for="q">Buscar:</label>
+    <input type="search" name="q" id="q">
+</form>
 
-me muestra todos los archivos que voy a subir a git = git status
+---
 
-agregar archivos= git add .
 
-verifica de nuevo =git status "(*deben salir en verde que significa que ya estan subidos*)"
+Bienvenidos a [EDteam]. Esta empresa .sdfsdf. .sdf.sdf .sfs [EDteam]. adad  adasd  asdad asdad [EDteam].
 
-para guardarlos como ..= git commit -m "markdown-test"
-
-configurar usuario y correo en git= git config --global user.email "ingmaomedina@gmail.com"
-
-git config --global user.name "Maomedina33"
-
-una vez terminado puedes generar un commit =
-git commit -m "markdown-test"
-
-copias el enlace de codigo de git y lo ejecutas en el terminal para agregar un repositorio remoto, en este caso fue: git remote add origin https://github.com/Maomedina33/-Markddown-test1-.git
-
-ahora vamos a subirlo = git push -u origin master
+[EDteam]:https://ed.team 
 
 
